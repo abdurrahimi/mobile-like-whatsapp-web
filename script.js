@@ -14,9 +14,3 @@ $(document).on('click','._3j691',function(){
         $('#bck-btn')[0].remove()
     })
 })
-
-$(document).on('click','.lhggkp7q',function(){
-    $('._2xAQV')[1].style.display = "block"
-    $('._2xAQV')[1].style.width = "100vh"
-    $('._3RGKj').map((k,v) => v.style.display = "none")
-})
