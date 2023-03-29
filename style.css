@@ -1,0 +1,37 @@
+@media only screen and (max-width: 600px) {
+    
+    select,
+    textarea,
+    input,
+    [contenteditable="true"] {
+        font-size: 16px !important;
+    }
+    
+    .back-btn {
+        margin-right: 10px;   
+    }
+    
+    .wa-hide {
+        display: none !important;
+    }
+    
+    [data-testid="cell-frame-container"]:not(.hover) {
+        background-color: var(--background-default-default) !important;
+    }
+    
+    div.two {
+        min-width: 100px !important;
+    }
+    .f6ipylw5{
+        width:100vh;
+    }
+    ._2Ts6i ._3RGKj{
+        width:100vh;
+    }
+    ._2xAQV{
+        display:none;
+    }
+    .k8VZe{
+        width:55vh;
+    }
+}
