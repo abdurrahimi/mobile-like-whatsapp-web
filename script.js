@@ -7,7 +7,7 @@ $(document).on('click','._3j691',function(){
     $('._2xAQV')[1].style.display = "block"
     $('._2xAQV')[1].style.width = "100vh"
     $('._3RGKj').map((k,v) => v.style.display = "none")
-    $('._23P3O').prepend("<a href='#' id='bck-btn'>kembali</a> &nbsp;")
+    $('._23P3O').prepend(`<a href='#' id='bck-btn'><svg viewBox="0 0 24 24" height="24" width="24" preserveAspectRatio="xMidYMid meet" class="" version="1.1" x="0px" y="0px" enable-background="new 0 0 24 24" xml:space="preserve"><path fill="currentColor" d="M12,4l1.4,1.4L7.8,11H20v2H7.8l5.6,5.6L12,20l-8-8L12,4z"></path></svg></a> &nbsp;`)
     $('#bck-btn').on('click',function(){
         $('._2xAQV')[1].style.display = "none"
         $('._3RGKj').map((k,v) => v.style.display = "block")
