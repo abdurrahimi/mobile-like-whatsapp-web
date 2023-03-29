@@ -47,4 +47,23 @@ var initWatchFunc = function() {
     }
 };
 
+$('._23P3O').prepend("<a href='#' id='bck-btn'><img src='https://cdn-icons-png.flaticon.com/512/93/93634.png' style='width:30px'/></a> &nbsp;")
+
+$(document).on('click','._3j691',function(){
+    $('._2xAQV')[1].style.display = "block"
+    $('._2xAQV')[1].style.width = "100vh"
+    $('._3RGKj').map((k,v) => console.log(v.style.display = "none"))
+})
+
+$('#bck-btn').on('click',function(){
+    $('._2xAQV')[1].style.display = "none"
+    $('._3RGKj').map((k,v) => console.log(v.style.display = "block"))
+})
+
+$(document).on('click','.lhggkp7q',function(){
+    $('._2xAQV')[1].style.display = "block"
+    $('._2xAQV')[1].style.width = "100vh"
+    $('._3RGKj').map((k,v) => v.style.display = "none")
+})
+
 setTimeout(initWatchFunc, 50);
